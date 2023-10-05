@@ -1,6 +1,16 @@
 <?php
 $htdocsPath = str_replace('\\', '/', realpath($_SERVER['DOCUMENT_ROOT'] . $_SERVER['REQUEST_URI']));
-$currentPath = str_replace($_SERVER['DOCUMENT_ROOT'], '', $htdocsPath);
+
+// Check if the current file is index.php or a custom filename
+if (basename($_SERVER['SCRIPT_FILENAME']) === 'index.php') {
+    $currentPath = str_replace($_SERVER['DOCUMENT_ROOT'], '', $htdocsPath);
+} else {
+    // If it's a custom filename, use the directory path
+    $currentPath = dirname(str_replace($_SERVER['DOCUMENT_ROOT'], '', $htdocsPath));
+}
+
+$currentPath = str_replace('\\', '/', realpath($_SERVER['DOCUMENT_ROOT'] . $currentPath));
+$currentPath = str_replace($_SERVER['DOCUMENT_ROOT'], '', $currentPath);
 
 ?>
 
