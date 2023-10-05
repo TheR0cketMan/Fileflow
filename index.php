@@ -91,7 +91,6 @@ $currentPath = str_replace($_SERVER['DOCUMENT_ROOT'], '', $currentPath);
         .fa-file,
         .fa-folder,
         .fa-file-pdf,
-        .fa-markdown,
         .fa-vuejs,
         .fa-rust,
         .fa-react,
@@ -107,6 +106,12 @@ $currentPath = str_replace($_SERVER['DOCUMENT_ROOT'], '', $currentPath);
             font-size: 24px;
             color: #333;
             margin-right: 10px;
+        }
+
+        .fa-markdown {
+          font-size: 18px;
+          color: #333;
+          margin-right: 10px;
         }
         .server-info {
             font-style: italic;
