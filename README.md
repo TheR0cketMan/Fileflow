@@ -1,7 +1,5 @@
 # Fileflow
 
-![Fileflow Logo](link_to_your_logo.png)
-
 Fileflow is a user-friendly web-based file management application designed to enhance your file organization and retrieval experience. It adds a user-friendly interface to your file directory, offering the added functionality of searching for files and organizing them by name, file size, and date last modified.
 
 With Fileflow, you can effortlessly manage a wide range of file types, including documents, images, and more. Say goodbye to file chaos and embrace a streamlined and efficient file management experience.
