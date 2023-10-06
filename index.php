@@ -447,10 +447,16 @@ $currentPath = str_replace($_SERVER['DOCUMENT_ROOT'], '', $currentPath);
 
         </table>
 
-        <?php $parentDirectory = dirname($_SERVER['REQUEST_URI']); ?>
-        <a href="<?php echo $parentDirectory; ?>" class="btn btn-center btn-success">
-          Go Back
-        </a>
+        <?php
+        $currentPath = $_SERVER['REQUEST_URI'];
+        $parentDirectory = dirname($currentPath);
+
+        // Check if the current directory is not the root directory
+        if ($currentPath !== '/') {
+          echo '<a href="' . $parentDirectory . '" class="btn btn-center btn-success">Go Back</a>';
+        }
+        ?>
+
     </div>
   </div>
 
