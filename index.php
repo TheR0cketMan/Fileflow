@@ -113,6 +113,7 @@ $currentPath = str_replace($_SERVER['DOCUMENT_ROOT'], '', $currentPath);
           color: #333;
           margin-right: 10px;
         }
+
         .server-info {
             font-style: italic;
             margin-top: 20px;
@@ -223,7 +224,6 @@ $currentPath = str_replace($_SERVER['DOCUMENT_ROOT'], '', $currentPath);
             }
         }
 
-        /* Add the modal styles here */
         .modal {
             display: none;
             position: fixed;
@@ -236,7 +236,6 @@ $currentPath = str_replace($_SERVER['DOCUMENT_ROOT'], '', $currentPath);
             background-color: rgba(0, 0, 0, 0.9);
         }
 
-        /* Centered Image */
         .centered-image {
           display: block;
           margin: 0 auto;
@@ -251,7 +250,6 @@ $currentPath = str_replace($_SERVER['DOCUMENT_ROOT'], '', $currentPath);
           height: 100%;
         }
 
-        /* Close button styles */
         .close {
           position: absolute;
           top: 10px;
@@ -277,31 +275,6 @@ $currentPath = str_replace($_SERVER['DOCUMENT_ROOT'], '', $currentPath);
           align-items: center;
           margin-top: 20px;
           padding: 10px;
-        }
-
-        #checkUpdateBtn {
-            background-color: #D9D9D9;
-            color: #222222;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease-in-out;
-            margin-left: 20px;
-        }
-
-        #checkUpdateBtn:hover {
-            background-color: #BFBFBF;
-        }
-
-        /* Add CSS styles to define the spinning animation */
-        .rotate {
-          animation: spin 2s linear infinite;
-        }
-
-        @keyframes spin {
-          0% { transform: rotate(0deg); }
-          100% { transform: rotate(360deg); }
         }
     </style>
 </head>
