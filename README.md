@@ -76,6 +76,30 @@ Please note that the specific location and name of the configuration file may va
 
 3. **Restart Your Web Server:** Save the changes and restart your web server software.
 
+## File Type Custom Icons
+
+- `.css` - CSS File
+- `.js` - JavaScript File
+- `.jpg`, `.jpeg`, `.png`, `.gif`, `.bmp`, `.svg`, `.ico` - Image File
+- `.txt` - Text File
+- `.html`, `.htm` - HTML File
+- `.php` - PHP File
+- `.md` - Markdown File
+- `.json` - JSON File
+- `.vue` - Vue.js File
+- `.jsx` - React File
+- `.swift` - Swift File
+- `.go` - Go File
+- `.rs` - Rust File
+- `.py` - Python File
+- `.gitignore`, `.gitattributes` - Git File
+- `.csv` - CSV File
+- `.pdf` - PDF File
+- `.xlsx`, `.xls` - Excel File
+- `.docx`, `.doc` - Word File
+- `.zip`, `.tar`, `.rar`, `.tar`, `.tar.gz`, `.7z` - Archive File
+- `.Dockerfile`, `.dockerignore` - Docker File
+
 ## Future Plans and Features
 
 I am committed to continuously improving and expanding Fileflow capabilities. Here are some of the exciting features and enhancements I plan to introduce in the future:
