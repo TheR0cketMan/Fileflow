@@ -91,6 +91,17 @@
             margin: 0 auto;
         }
 
+        @media screen and (max-width: 768px) {
+    .grid-container {
+        display: flex;
+        flex-direction: column; /* Stack cards vertically */
+    }
+
+    .category-card {
+        margin-bottom: 10px; /* Reduce spacing between cards on mobile */
+    }
+}
+
         /* Different border-top colors for each card */
         .category-card:nth-child(1) {
             border-top-color: #6495ED;
