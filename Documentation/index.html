@@ -92,15 +92,21 @@
         }
 
         @media screen and (max-width: 768px) {
-    .grid-container {
-        display: flex;
-        flex-direction: column; /* Stack cards vertically */
-    }
+          .grid-container {
+            display: flex;
+            flex-direction: column;
+          }
 
-    .category-card {
-        margin-bottom: 10px; /* Reduce spacing between cards on mobile */
-    }
-}
+          .category-card {
+            margin-bottom: 10px;
+          }
+
+          .footer {
+            display: block !important; /* Make sure it's displayed */
+            visibility: visible !important; /* Make sure it's visible */
+            opacity: 1 !important; /* Make sure it's fully opaque */
+          }
+        }
 
         /* Different border-top colors for each card */
         .category-card:nth-child(1) {
