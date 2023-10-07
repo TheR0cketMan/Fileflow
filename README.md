@@ -25,6 +25,8 @@ Getting Fileflow up and running is a breeze. Follow these steps:
 3. **Access Fileflow:** Open your web browser and navigate to the URL where you've deployed Fileflow.
 
 
+**IMPORTANT:** You don't need to click on the file after placing it in your project's directory (folder). It will automatically appear and list all of your files. If your folder is empty, you'll see a message. This message will disappear once you've added files.
+
 ## Advanced Configuration (Optional)
 
 If you want to customize your web server's directory index settings, follow these steps:
