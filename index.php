@@ -436,7 +436,7 @@ $currentPath = str_replace($_SERVER['DOCUMENT_ROOT'], '', $currentPath);
     <div class="container server-info">
         <p><strong>Server Information:</strong> <?php echo $_SERVER['SERVER_SOFTWARE']; ?>. Server at localhost Port <?php echo $_SERVER['SERVER_PORT']; ?></p>
         <div class="version-info">
-          <p class="vi">Current Version: 1.0-alpha-2</p>
+          <p class="vi">Current Version: 1.0-alpha-2.1</p>
         </div>
         <div class="version-info" style="text-align: center; margin-top: -28px;">
           <p class="vi">
@@ -560,7 +560,7 @@ fetch(`https://api.github.com/repos/${username}/${repository}/releases`)
     if (releases.length > 0) {
       const latestRelease = releases[0];
       const latestVersion = latestRelease.tag_name;
-      const currentVersion = '1.0-alpha-2'; // Replace with your project's current version
+      const currentVersion = '1.0-alpha-2';
 
       // Compare versions and show/hide the update link
       const updateLink = document.getElementById('updateLink');
