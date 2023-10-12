@@ -149,7 +149,8 @@ $currentPath = str_replace($_SERVER['DOCUMENT_ROOT'], '', $currentPath);
       .fa-file-excel,
       .fa-file-word,
       .fa-docker,
-      .fa-file-audio
+      .fa-file-audio,
+      .fa-file-video
        {
           font-size: 24px;
           color: #333;
@@ -499,8 +500,10 @@ $currentPath = str_replace($_SERVER['DOCUMENT_ROOT'], '', $currentPath);
                       $iconClass = 'fa-regular fa-file-zipper'; // Icon class for Zip
                   } elseif (in_array($extension, ['Dockerfile', 'dockerignore'])) {
                       $iconClass = 'fra-brands fa-docker'; // Icon class for Docker
-                  } elseif (in_array($extension, ['mp3', 'aac', 'wav', 'aiff', 'aa', 'alac', 'flac', 'm4a', 'm4b', 'm4p', 'mpc', 'wma', 'webm'])) {
+                  } elseif (in_array($extension, ['mp3', 'aac', 'wav', 'aiff', 'aa', 'alac', 'flac', 'm4a', 'm4b', 'm4p', 'mpc', 'wma'])) {
                       $iconClass = 'fa-regular fa-file-audio'; // Icon class for audio files
+                  } elseif (in_array($extension, ['webm', 'flv', 'avi', 'mov', 'qt', 'wmv', 'mp4', 'm4p', 'm4v', 'mpg', 'mpeg', 'mp4v', '3gp'])) {
+                      $iconClass = 'fa-regular fa-file-video'; // Icon class for video files
                   } else {
                       $iconClass = 'fa-regular fa-file';
                   }
