@@ -148,7 +148,8 @@ $currentPath = str_replace($_SERVER['DOCUMENT_ROOT'], '', $currentPath);
       .fa-file-csv,
       .fa-file-excel,
       .fa-file-word,
-      .fa-docker
+      .fa-docker,
+      .fa-file-audio
        {
           font-size: 24px;
           color: #333;
