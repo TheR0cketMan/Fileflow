@@ -108,7 +108,7 @@ I am committed to continuously improving and expanding Fileflow capabilities. He
 
 - **Advanced Search**: Enhance the search functionality to include file content and keywords, making it even easier to find the files you need.
 
-- **File Uploads**: Allow users to upload files directly through the Fileflow interface, simplifying the process of adding new files.
+- [x] ~~**File Uploads**: Allow users to upload files directly through the Fileflow interface, simplifying the process of adding new files.~~
 
 - **Improved User Interface**: Continuously refine the user interface to provide an even smoother and more intuitive user experience.
 
