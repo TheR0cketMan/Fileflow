@@ -498,6 +498,8 @@ $currentPath = str_replace($_SERVER['DOCUMENT_ROOT'], '', $currentPath);
                       $iconClass = 'fa-regular fa-file-zipper'; // Icon class for Zip
                   } elseif (in_array($extension, ['Dockerfile', 'dockerignore'])) {
                       $iconClass = 'fra-brands fa-docker'; // Icon class for Docker
+                  } elseif (in_array($extension, ['mp3', 'aac', 'wav', 'aiff', 'aa', 'alac', 'flac', 'm4a', 'm4b', 'm4p', 'mpc', 'wma', 'webm'])) {
+                      $iconClass = 'fa-regular fa-file-audio'; // Icon class for audio files
                   } else {
                       $iconClass = 'fa-regular fa-file';
                   }
