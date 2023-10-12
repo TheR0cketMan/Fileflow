@@ -440,7 +440,7 @@ $currentPath = str_replace($_SERVER['DOCUMENT_ROOT'], '', $currentPath);
 
       // Function to check if a file has an image extension
       function isImage($extension) {
-          $imageExtensions = ['jpg', 'jpeg', 'png', 'gif', 'bmp', 'svg', 'ico'];
+          $imageExtensions = ['jpg', 'jpeg', 'png', 'gif', 'bmp', 'svg', 'ico', 'tiff', 'apng', 'webp'];
           return in_array($extension, $imageExtensions);
       }
 
